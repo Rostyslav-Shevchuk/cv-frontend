@@ -1,0 +1,22 @@
+.education-section {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 24px 8px;
+  }
+  &__item {
+    background: var(--color-footer-green-light);
+    padding: 32px 32px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 32px;
+    text-align: left;
+  }
+  &__item h3 {
+    text-align: center;
+    font-size: 22px;
+  }
+}

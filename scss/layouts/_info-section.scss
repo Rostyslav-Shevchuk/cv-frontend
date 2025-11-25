@@ -1,0 +1,9 @@
+.info-section {
+  .info-section__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 8px;
+    padding: 24px 8px;
+  }
+}
